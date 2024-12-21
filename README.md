@@ -35,11 +35,13 @@ source $HOME/.bash_profile
 **set custom configs server**
 ```
 export NAMADA_NETWORK_CONFIGS_SERVER="https://github.com/anoma/namada-mainnet-genesis/releases/download/mainnet-genesis"
-Install Rust:
 ```
-
+**install Rust**
+```
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 source $HOME/.cargo/env
+```
+
 Install CometBFT:
 
 cd $HOME
