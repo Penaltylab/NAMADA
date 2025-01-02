@@ -158,8 +158,11 @@ while true; do
   sleep 5
 done
 ```
-Security
+
+**Security**
+```
 To protect you keys please don`t share your privkey, mnemonic and follow basic security rules
+```
 
 Set up ssh keys for authentication
 You can use this guide to configure ssh authentication and disable password authentication on your server
