@@ -22,9 +22,10 @@ echo "export PATH=$PATH:/usr/local/go/bin:~/go/bin" >> ~/.bash_profile
 source $HOME/.bash_profile
 }
 [ ! -d ~/go/bin ] && mkdir -p ~/go/bin
-Replace your Validator and Wallet name, save and import variables into system. Change default port if needed.
 ```
 
+**Replace your Validator and Wallet name, save and import variables into system. Change default port if needed.**
+```
 NAMADA_PORT=26
 echo "export NAMADA_PORT="$NAMADA_PORT"" >> $HOME/.bash_profile
 echo "export ALIAS="CHOOSE_A_NAME_FOR_YOUR_VALIDATOR"" >> $HOME/.bash_profile
@@ -34,6 +35,7 @@ echo "export PUBLIC_IP=$(wget -qO- eth0.me)" >> $HOME/.bash_profile
 echo "export CHAIN_ID="namada.5f5de2dd1b88cba30586420"" >> $HOME/.bash_profile
 echo "export BASE_DIR="$HOME/.local/share/namada"" >> $HOME/.bash_profile
 source $HOME/.bash_profile
+```
 **set custom configs server**
 ```
 export NAMADA_NETWORK_CONFIGS_SERVER="https://github.com/anoma/namada-mainnet-genesis/releases/download/mainnet-genesis"
