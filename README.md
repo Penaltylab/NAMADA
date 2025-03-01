@@ -1,6 +1,9 @@
-Manual Installation
+**Manual Installation**
+
 Official Documentation
+```
 Recommended Hardware: CPU: x86_64 or arm64, 8GB DDR4, 1TB of storage
+```
 
 **Update packages and Install dependencies **
 ```
