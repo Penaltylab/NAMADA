@@ -195,3 +195,4 @@ sudo rm $(which namada)
 sudo rm -rf $HOME/.local/share/namada/namada.5f5de2dd1b88cba30586420
 ```
 Add project introduction
+Add feature summary
