@@ -199,3 +199,4 @@ Add feature summary
 Add system requirements
 Add installation instructions
 Add quick start guide
+Document API schema setup
