@@ -201,3 +201,4 @@ Add installation instructions
 Add quick start guide
 Document API schema setup
 Add endpoint generation examples
+Add authentication setup guide
