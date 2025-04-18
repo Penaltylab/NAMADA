@@ -207,3 +207,4 @@ Add testing integration guide
 Add contributing guidelines
 Add code of conduct
 Add FAQ for developers
+Add troubleshooting guide
